@@ -1,5 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.jumbo_1{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.jumbo_2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.hov_bord:hover{
+    filter: opacity(100%);
+    border-bottom: 3px solid blue;
 }
