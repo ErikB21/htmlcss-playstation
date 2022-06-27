@@ -1,3 +1,16 @@
+
+:root{
+    --color-button-1: #363636;
+    --color-button-2: #cd3d0f;
+    --color-button-3: #2d64e6;
+    --color-button-4: #d9dadc;
+    --color-text-blue: #0f7ad0;
+    --color-section-ps-plus: #bebcbb;
+    --color-section-ps-now: #161c3b;
+}
+
+/*Background Image-Color*/
+
 .jumbo_1{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -14,7 +27,55 @@
     background-position-y: top;
 }
 
+
+.bg_ps_plus{
+    background-color: var(--color-section-ps-plus);
+}
+
+.bg_bs_now{
+    background-color: var(--color-section-ps-now);
+}
+
+
+/*Buttons*/
+
+.rounded_btn{
+    border-radius: 25px;
+}
+
+.bg_btn_1{
+    background-color: var(--color-button-1);
+    color: white;
+}
+
+.bg_btn_2{
+    background-color: var(--color-button-2);
+    color: white;
+}
+
+.bg_btn_3{
+    background-color: var(--color-button-3);
+    color: white;
+}
+
+.bg_btn_4{
+    background-color: var(--color-button-4);
+    color: var(--color-text-blue);
+}
+
+.bord_col{
+    border: 3px solid var(--color-text-blue);
+}
+
+.col_disabled{
+    color: rgb(186, 184, 184);
+}
+
+
+/*Hover*/
+
 .hov_bord:hover{
     filter: opacity(100%);
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid var(--color-text-blue);
 }
+
