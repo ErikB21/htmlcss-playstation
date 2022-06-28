@@ -47,7 +47,6 @@
     width: 1em;
     margin-left: -1em; 
   }
-
 /*Background Image-Color*/
 
 .jumbo_1{
@@ -165,6 +164,10 @@
 
 .bord_col_hov:hover{
     transform: translate(0, -30px);    
+}
+
+.chev_hov:active{
+    transform: rotate(180deg);
 }
 
 
