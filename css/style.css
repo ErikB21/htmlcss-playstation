@@ -18,6 +18,36 @@
     vertical-align: baseline;
 }
 
+.marg_lr{
+    margin:0 100px;
+}
+
+.col_blue{
+    list-style: none;
+}
+
+.fon_siz{
+    font-size: 14px;
+}
+
+.fon_siz_ico{
+    font-size: 10px;
+}
+
+.bor_bot{
+    text-decoration: underline;
+}
+
+
+.col_blue li::before {
+    content: "\2022"; 
+    color: var(--color-button-3);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; 
+  }
+
 /*Background Image-Color*/
 
 .jumbo_1{
@@ -93,8 +123,48 @@
     border-bottom: 3px solid var(--color-text-blue);
 }
 
-.bord_col_hov:hover{
-    outline: 2px solid var(--color-text-blue);
-    outline-offset: 7px;
+.col_blue li:hover{
+    border-bottom: 2px solid var(--color-button-3);
 }
+
+.bg_btn_1:hover{
+    opacity: 0.7;
+    background-color: var(--color-button-1);
+    color: white;
+    outline: 2px solid white;
+    outline-offset: -4px;
+}
+
+.bg_btn_2:hover{
+    opacity: 0.7;
+    background-color: var(--color-button-2);
+    color: white;
+    outline: 2px solid black;
+    outline-offset: -4px;
+}
+
+.bg_btn_3:hover{
+    opacity: 0.7;
+    background-color: var(--color-button-3);
+    color: white;
+    outline: 2px solid white;
+    outline-offset: -4px;
+}
+
+.bg_btn_4:hover{
+    background-color: var(--color-button-4);
+    color: var(--color-text-blue);
+    opacity: 0.7;
+}
+
+.btn-light:hover{
+    opacity: 0.7;
+    outline: 2px solid black;
+    outline-offset: -4px;
+}
+
+.bord_col_hov:hover{
+    transform: translate(0, -30px);    
+}
+
 
