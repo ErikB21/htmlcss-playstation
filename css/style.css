@@ -13,6 +13,10 @@
     padding-top: 200px;
 }
 
+.vert_non{
+    vertical-align: baseline;
+}
+
 /*Background Image-Color*/
 
 .jumbo_1{
@@ -68,7 +72,8 @@
 }
 
 .bord_col{
-    border: 3px solid var(--color-text-blue);
+    outline: 2px solid var(--color-text-blue);
+    outline-offset: 7px; 
 }
 
 .col_disabled{
@@ -84,7 +89,7 @@
 }
 
 .bord_col_hov:hover{
-    border: 3px solid var(--color-text-blue);
-    padding: 0.3rem;
+    outline: 2px solid var(--color-text-blue);
+    outline-offset: 7px;
 }
 
