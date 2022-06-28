@@ -7,6 +7,7 @@
     --color-text-blue: #0f7ad0;
     --color-section-ps-plus: #bebcbb;
     --color-section-ps-now: #161c3b;
+    --color-footer: #00439C;
 }
 
 .pad_top{
@@ -40,8 +41,12 @@
     background-color: var(--color-section-ps-plus);
 }
 
-.bg_bs_now{
+.bg_ps_now{
     background-color: var(--color-section-ps-now);
+}
+
+.bg_ps_footer{
+    background-color: var(--color-footer);
 }
 
 
