@@ -9,6 +9,10 @@
     --color-section-ps-now: #161c3b;
 }
 
+.pad_top{
+    padding-top: 200px;
+}
+
 /*Background Image-Color*/
 
 .jumbo_1{
@@ -75,7 +79,7 @@
 /*Hover*/
 
 .hov_bord:hover{
-    filter: opacity(100%);
+    filter: opacity(30%);
     border-bottom: 3px solid var(--color-text-blue);
 }
 
