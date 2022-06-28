@@ -79,3 +79,8 @@
     border-bottom: 3px solid var(--color-text-blue);
 }
 
+.bord_col_hov:hover{
+    border: 3px solid var(--color-text-blue);
+    padding: 0.3rem;
+}
+
