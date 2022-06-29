@@ -38,7 +38,6 @@
     text-decoration: underline;
 }
 
-
 .col_blue li::before {
     content: "\2022"; 
     color: var(--color-button-3);
@@ -46,7 +45,7 @@
     display: inline-block;
     width: 1em;
     margin-left: -1em; 
-  }
+}
 /*Background Image-Color*/
 
 .jumbo_1{
@@ -167,8 +166,9 @@
     transform: translate(0, -30px);    
 }
 
-.chev_hov:active{
-    transform: rotate(180deg);
+
+.bor_bot:hover{
+    opacity: 30%;
 }
 
 /*Media Query*/
