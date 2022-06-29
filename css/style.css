@@ -111,8 +111,9 @@
 }
 
 .col_disabled{
-    color: rgb(186, 184, 184);
+    color: #727272;
 }
+
 
 
 /*Hover*/
@@ -168,6 +169,14 @@
 
 .chev_hov:active{
     transform: rotate(180deg);
+}
+
+/*Media Query*/
+
+@media all and (min-width:768px){
+    .ms_image{
+        width: 50%;
+    }
 }
 
 
